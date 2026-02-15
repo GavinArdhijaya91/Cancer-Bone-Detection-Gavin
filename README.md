@@ -18,32 +18,14 @@ venv_media\Scripts\activate
 source venv_media/bin/activate
 _______________________________
 
-Lalu install library-nya
+2. Menginstall Library
 
 - Menginstall
 pip install flask tensorflow numpy opencv-python
 - Note: Library os adalah bawaan Python, jadi Anda tidak perlu untuk menginstall ulang.
 ________________________________
 
-3. Struktur Folder
-Pastikan struktur folder Anda terlihat seperti ini:
-
-Plaintext
-Project/
-├── app.py              # Logic Flask & AI
-|___training.py         # Training Data untuk model
-├── model_bone.h5       # File Model (.H5)
-├── static/
-│   ├── uploads/        # Folder foto yang masuk
-│   └── outputs/        # Folder hasil kotak merah
-└── templates/
-    └── frontend.html   # Tampilan Web
-
-(Untuk nama folder dikreasikan sendiri tidak papa, hanya saja Anda perlu mengubah path folder pada app.py)
-
-___________________________________
-
-4. Cara Menjalankan
+3. Cara Menjalankan
 - Buka Terminal di VSCODE/berbagai IDE, yang berada di folder proyek Anda
 - Pastikan 'venv_media' sudah aktif
 - Lakukan pengetikan pada Terminal seperti ini:
