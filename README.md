@@ -29,9 +29,15 @@ pip install flask tensorflow numpy opencv-python
 - Note: Library os adalah bawaan Python, jadi Anda tidak perlu untuk menginstall ulang.
 ________________________________
 
-# 3. Cara Menjalankan
+# 3. Mengunduh Dataset
+
+Anda bisa mengunduh dataset yang berisi foto tulang normal dan tidak normal untuk di training pada link berikut (https://www.kaggle.com/datasets/ziya07/bone-cancer-detection-dataset)
+
+# 4. Cara Menjalankan
 - Buka Terminal di VSCODE/berbagai IDE, yang berada di folder proyek Anda
 - Pastikan 'venv_media' sudah aktif
+- Lakukan training pada data seperti ini:
+python training.py
 - Lakukan pengetikan pada Terminal seperti ini:
 python app.py
 
@@ -58,3 +64,4 @@ Untuk jalan alternatifnya, Anda bisa menambahkan simbol di sela-sela suatu nama 
 `Program ini hanyalah sebagai acuan untuk memprediksi apakah orang tersebut berpotensi terkena kanker tulang atau tidak, jadi tidak ada suatu keputusan mutlak yang dihasilkan dari proses analisis program ini. Dengan demikian, ketika hasil dari program ini menyatakan bahwa tulang Anda terdeteksi kanker karena adanya area yang mencurigakan, konsultasikan hal ini lebih lanjut ke dokter spesialis untuk dianalisis lebih lanjut terkait kebenarannya.`
 
 🙏 THANK YOU 🙏
+
