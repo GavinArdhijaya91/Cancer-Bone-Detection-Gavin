@@ -1,0 +1,19 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+data/
+datasets/
+*.zip
+*.tar.gz
+*.csv
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.pt
+*.pth
+*.onnx
+*.weights
+*.pkl
+__pycache__/
+venv/
+env/
+.env
+*.pyc
+.DS_Store
+Thumbs.db
