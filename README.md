@@ -1,5 +1,5 @@
-🦴 BoneScan AI: Osteosarcoma Detection System
-BoneScan AI adalah sistem berbasis Deep Learning yang dirancang untuk mendeteksi potensi kanker tulang (Osteosarcoma) melalui citra X-Ray. Menggunakan arsitektur ResNet50, sistem ini mampu mengenali pola anomali pada kepadatan tulang dengan tingkat presisi yang lebih tinggi dibandingkan model CNN standar.
+# 🦴 BoneScan AI: Osteosarcoma Detection System
+# BoneScan AI adalah sistem berbasis Deep Learning yang dirancang untuk mendeteksi potensi kanker tulang (Osteosarcoma) melalui citra X-Ray. Menggunakan arsitektur ResNet50, sistem ini mampu mengenali pola anomali pada kepadatan tulang dengan tingkat presisi yang lebih tinggi dibandingkan model CNN standar.
 
 🚀 Panduan Instalasi
 Ikuti langkah-langkah berikut untuk menjalankan proyek di lingkungan lokal Anda:
@@ -11,18 +11,18 @@ _______________________________
 # Membuat virtual environment
 python -m venv venv_media
 
-# Mengaktifkan venv
-# Windows:
+- Mengaktifkan venv
+- Windows:
 venv_media\Scripts\activate
-# Mac/Linux:
+- Mac/Linux:
 source venv_media/bin/activate
 _______________________________
 
 Lalu install library-nya
 
-# Menginstall
+- Menginstall
 pip install flask tensorflow numpy opencv-python
-# Note: Library os adalah bawaan Python, jadi Anda tidak perlu untuk menginstall ulang.
+- Note: Library os adalah bawaan Python, jadi Anda tidak perlu untuk menginstall ulang.
 ________________________________
 
 3. Struktur Folder
@@ -49,7 +49,7 @@ ___________________________________
 - Lakukan pengetikan pada Terminal seperti ini:
 python app.py
 
-# Buka browser dan akses: http://localhost:5000 atau http://IP_LAPTOP:5000 (untuk akses via HP).
+Buka browser dan akses: http://localhost:5000 atau http://IP_LAPTOP:5000 (untuk akses via HP).
 
 ____________________________________
 
